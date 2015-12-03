@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE71381E1C10DBAF0005265E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE71381D1C10DBAF0005265E /* AppDelegate.swift */; };
+		AE7138201C10DBAF0005265E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE71381F1C10DBAF0005265E /* ViewController.swift */; };
+		AE7138231C10DBAF0005265E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE7138211C10DBAF0005265E /* Main.storyboard */; };
+		AE7138251C10DBAF0005265E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE7138241C10DBAF0005265E /* Assets.xcassets */; };
+		AE7138281C10DBAF0005265E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE7138261C10DBAF0005265E /* LaunchScreen.storyboard */; };
+		AE7138331C10DBAF0005265E /* JavaWomapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7138321C10DBAF0005265E /* JavaWomapTests.swift */; };
+		AE71383E1C10DBAF0005265E /* JavaWomapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE71383D1C10DBAF0005265E /* JavaWomapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE71382F1C10DBAF0005265E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE7138121C10DBAF0005265E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE7138191C10DBAF0005265E;
+			remoteInfo = JavaWomap;
+		};
+		AE71383A1C10DBAF0005265E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE7138121C10DBAF0005265E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE7138191C10DBAF0005265E;
+			remoteInfo = JavaWomap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE71381A1C10DBAF0005265E /* JavaWomap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JavaWomap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE71381D1C10DBAF0005265E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE71381F1C10DBAF0005265E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE7138221C10DBAF0005265E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE7138241C10DBAF0005265E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE7138271C10DBAF0005265E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE7138291C10DBAF0005265E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE71382E1C10DBAF0005265E /* JavaWomapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JavaWomapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7138321C10DBAF0005265E /* JavaWomapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaWomapTests.swift; sourceTree = "<group>"; };
+		AE7138341C10DBAF0005265E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE7138391C10DBAF0005265E /* JavaWomapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JavaWomapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE71383D1C10DBAF0005265E /* JavaWomapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaWomapUITests.swift; sourceTree = "<group>"; };
+		AE71383F1C10DBAF0005265E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE7138171C10DBAF0005265E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE71382B1C10DBAF0005265E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE7138361C10DBAF0005265E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE7138111C10DBAF0005265E = {
+			isa = PBXGroup;
+			children = (
+				AE71381C1C10DBAF0005265E /* JavaWomap */,
+				AE7138311C10DBAF0005265E /* JavaWomapTests */,
+				AE71383C1C10DBAF0005265E /* JavaWomapUITests */,
+				AE71381B1C10DBAF0005265E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE71381B1C10DBAF0005265E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE71381A1C10DBAF0005265E /* JavaWomap.app */,
+				AE71382E1C10DBAF0005265E /* JavaWomapTests.xctest */,
+				AE7138391C10DBAF0005265E /* JavaWomapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE71381C1C10DBAF0005265E /* JavaWomap */ = {
+			isa = PBXGroup;
+			children = (
+				AE71381D1C10DBAF0005265E /* AppDelegate.swift */,
+				AE71381F1C10DBAF0005265E /* ViewController.swift */,
+				AE7138211C10DBAF0005265E /* Main.storyboard */,
+				AE7138241C10DBAF0005265E /* Assets.xcassets */,
+				AE7138261C10DBAF0005265E /* LaunchScreen.storyboard */,
+				AE7138291C10DBAF0005265E /* Info.plist */,
+			);
+			path = JavaWomap;
+			sourceTree = "<group>";
+		};
+		AE7138311C10DBAF0005265E /* JavaWomapTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE7138321C10DBAF0005265E /* JavaWomapTests.swift */,
+				AE7138341C10DBAF0005265E /* Info.plist */,
+			);
+			path = JavaWomapTests;
+			sourceTree = "<group>";
+		};
+		AE71383C1C10DBAF0005265E /* JavaWomapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE71383D1C10DBAF0005265E /* JavaWomapUITests.swift */,
+				AE71383F1C10DBAF0005265E /* Info.plist */,
+			);
+			path = JavaWomapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE7138191C10DBAF0005265E /* JavaWomap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE7138421C10DBAF0005265E /* Build configuration list for PBXNativeTarget "JavaWomap" */;
+			buildPhases = (
+				AE7138161C10DBAF0005265E /* Sources */,
+				AE7138171C10DBAF0005265E /* Frameworks */,
+				AE7138181C10DBAF0005265E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JavaWomap;
+			productName = JavaWomap;
+			productReference = AE71381A1C10DBAF0005265E /* JavaWomap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE71382D1C10DBAF0005265E /* JavaWomapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE7138451C10DBAF0005265E /* Build configuration list for PBXNativeTarget "JavaWomapTests" */;
+			buildPhases = (
+				AE71382A1C10DBAF0005265E /* Sources */,
+				AE71382B1C10DBAF0005265E /* Frameworks */,
+				AE71382C1C10DBAF0005265E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE7138301C10DBAF0005265E /* PBXTargetDependency */,
+			);
+			name = JavaWomapTests;
+			productName = JavaWomapTests;
+			productReference = AE71382E1C10DBAF0005265E /* JavaWomapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE7138381C10DBAF0005265E /* JavaWomapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE7138481C10DBAF0005265E /* Build configuration list for PBXNativeTarget "JavaWomapUITests" */;
+			buildPhases = (
+				AE7138351C10DBAF0005265E /* Sources */,
+				AE7138361C10DBAF0005265E /* Frameworks */,
+				AE7138371C10DBAF0005265E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE71383B1C10DBAF0005265E /* PBXTargetDependency */,
+			);
+			name = JavaWomapUITests;
+			productName = JavaWomapUITests;
+			productReference = AE7138391C10DBAF0005265E /* JavaWomapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE7138121C10DBAF0005265E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ihcomega;
+				TargetAttributes = {
+					AE7138191C10DBAF0005265E = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					AE71382D1C10DBAF0005265E = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = AE7138191C10DBAF0005265E;
+					};
+					AE7138381C10DBAF0005265E = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = AE7138191C10DBAF0005265E;
+					};
+				};
+			};
+			buildConfigurationList = AE7138151C10DBAF0005265E /* Build configuration list for PBXProject "JavaWomap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE7138111C10DBAF0005265E;
+			productRefGroup = AE71381B1C10DBAF0005265E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE7138191C10DBAF0005265E /* JavaWomap */,
+				AE71382D1C10DBAF0005265E /* JavaWomapTests */,
+				AE7138381C10DBAF0005265E /* JavaWomapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE7138181C10DBAF0005265E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7138281C10DBAF0005265E /* LaunchScreen.storyboard in Resources */,
+				AE7138251C10DBAF0005265E /* Assets.xcassets in Resources */,
+				AE7138231C10DBAF0005265E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE71382C1C10DBAF0005265E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE7138371C10DBAF0005265E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE7138161C10DBAF0005265E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7138201C10DBAF0005265E /* ViewController.swift in Sources */,
+				AE71381E1C10DBAF0005265E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE71382A1C10DBAF0005265E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7138331C10DBAF0005265E /* JavaWomapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE7138351C10DBAF0005265E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE71383E1C10DBAF0005265E /* JavaWomapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE7138301C10DBAF0005265E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE7138191C10DBAF0005265E /* JavaWomap */;
+			targetProxy = AE71382F1C10DBAF0005265E /* PBXContainerItemProxy */;
+		};
+		AE71383B1C10DBAF0005265E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE7138191C10DBAF0005265E /* JavaWomap */;
+			targetProxy = AE71383A1C10DBAF0005265E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE7138211C10DBAF0005265E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE7138221C10DBAF0005265E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE7138261C10DBAF0005265E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE7138271C10DBAF0005265E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE7138401C10DBAF0005265E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE7138411C10DBAF0005265E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE7138431C10DBAF0005265E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JavaWomap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihcomega.JavaWomap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE7138441C10DBAF0005265E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JavaWomap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihcomega.JavaWomap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE7138461C10DBAF0005265E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JavaWomapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihcomega.JavaWomapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JavaWomap.app/JavaWomap";
+			};
+			name = Debug;
+		};
+		AE7138471C10DBAF0005265E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JavaWomapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihcomega.JavaWomapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JavaWomap.app/JavaWomap";
+			};
+			name = Release;
+		};
+		AE7138491C10DBAF0005265E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JavaWomapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihcomega.JavaWomapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JavaWomap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AE71384A1C10DBAF0005265E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JavaWomapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihcomega.JavaWomapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JavaWomap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE7138151C10DBAF0005265E /* Build configuration list for PBXProject "JavaWomap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE7138401C10DBAF0005265E /* Debug */,
+				AE7138411C10DBAF0005265E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7138421C10DBAF0005265E /* Build configuration list for PBXNativeTarget "JavaWomap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE7138431C10DBAF0005265E /* Debug */,
+				AE7138441C10DBAF0005265E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE7138451C10DBAF0005265E /* Build configuration list for PBXNativeTarget "JavaWomapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE7138461C10DBAF0005265E /* Debug */,
+				AE7138471C10DBAF0005265E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE7138481C10DBAF0005265E /* Build configuration list for PBXNativeTarget "JavaWomapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE7138491C10DBAF0005265E /* Debug */,
+				AE71384A1C10DBAF0005265E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE7138121C10DBAF0005265E /* Project object */;
+}
