@@ -1,0 +1,5 @@
+AppDelegate.swift
+Podfile.lock
+Pods
+*.xcworkspace
+*.xcodeproj
