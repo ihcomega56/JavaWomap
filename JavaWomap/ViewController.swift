@@ -35,14 +35,12 @@ class ViewController: UIViewController {
         addMarker(35.689634, latitude: 139.692101, caption: "Java女子部(関東)", population: 290, icon: tokyoIcon!)
         addMarker(34.686297, latitude: 135.519661, caption: "関西Java女子部", population: 60, icon: kansaiIcon!)
         addMarker(33.606576, latitude: 130.418297, caption: "九州Java女子部", population: 1, icon: kyushuIcon!)
-
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
