@@ -11,9 +11,9 @@ import GoogleMaps
 
 class ViewController: UIViewController {
     
-    let tokyoIcon = UIImage(named: "/Users/ihcomega/Xcode/JavaWomap/JavaWomap/DuchessTokyo.png")
-    let kansaiIcon = UIImage(named: "/Users/ihcomega/Xcode/JavaWomap/JavaWomap/DuchessKansai.png")
-    let kyushuIcon = UIImage(named: "/Users/ihcomega/Xcode/JavaWomap/JavaWomap/DuchessKyushu.png")
+    let tokyoIcon = UIImage(named: "DuchessTokyo.png")
+    let kansaiIcon = UIImage(named: "DuchessKansai.png")
+    let kyushuIcon = UIImage(named: "DuchessKyushu.png")
     
     override func viewDidLoad() {
         super.viewDidLoad()
